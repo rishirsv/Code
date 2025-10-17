@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "types": ["node", "jest"],
+    "verbatimModuleSyntax": false,
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "include": ["src", "tests", "shared"],
+  "exclude": ["server.js"]
+}

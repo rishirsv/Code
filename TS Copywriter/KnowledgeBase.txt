@@ -1,0 +1,303 @@
+<KnowledgeBase>
+<Section name="Quality of Earnings">
+
+  <!-- 1) REVENUE RECOGNITION ADJUSTMENTS -->
+  <Sample id="QoE_RR">
+    <Text>
+      Under [GAAP | IFRS], revenue should be recognized in the period in which the related performance obligations are met.
+      This adjustment addresses scenarios such as:
+      (1) Deferring [subscription | maintenance | service] revenue received in advance over the contract term, rather than recording it on a cash basis.
+      (2) Correcting [out-of-period | early/late recorded] revenue entries of $[N] identified in [period], aligning them with the appropriate reporting period.
+    </Text>
+    <Keywords>QofE; revenue recognition; subscription revenue; out-of-period; deferral; GAAP; IFRS; performance obligations</Keywords>
+  </Sample>
+
+  <!-- 2) NONRECURRING ITEMS (EXPENSES/INCOME) -->
+  <Sample id="QoE_Nonrec">
+    <Text>
+      Nonrecurring items, such as [one-time expenses | gains], exclude amounts not tied to Target’s ongoing operations. Examples include: • $[N] in transaction costs (legal, advisory, travel) for [deal/transaction] in [period]. • $[N] in severance paid to [N] employees in [MMM-YY]. • $[N] in one-time insurance claim proceeds in [MMM-YY]. • $[N] in charitable donations, with historical data indicating no recurrence post-close. The adjustment excludes these amounts from EBITDA.
+    </Text>
+    <Keywords>QofE; nonrecurring; one-time cost; severance; legal fees; charitable donation; insurance claim; transaction fees; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 3) COMPENSATION & BONUS NORMALIZATION -->
+  <Sample id="QoE_Comp">
+    <Text>
+      Target’s compensation adjustments cover [discretionary | performance-based] bonuses and related payroll taxes. (1) The adjustment excludes $[N] in discretionary bonuses paid in [MMM-YY] from EBITDA as one-time items. (2) For ongoing bonuses accruing [monthly | quarterly] per performance metrics, the adjustment normalizes $[N] to match accruals with actual payouts. (3) The adjustment accrues related payroll taxes ratably over the period.
+    </Text>
+    <Keywords>QofE; bonus; compensation normalization; payroll taxes; accruals; discretionary bonus; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 4) CAPITALIZATION VS. EXPENSING -->
+  <Sample id="QoE_CapExp">
+    <Text>
+      Under [US GAAP | IFRS], costs like [R&D | software development | marketing] expenditures qualify for capitalization when specific criteria are met. (1) In [period], Target capitalized $[N] of [project] costs previously recorded as expenses. (2) Alternatively, the adjustment reclassifies $[N] of [internal labor | R&D spend] to operating expenses.
+    </Text>
+    <Keywords>QofE; capitalized costs; R&D; software development; IFRS; GAAP; expense reclassification; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 5) RESERVES & IMPAIRMENTS -->
+  <Sample id="QoE_Reserves">
+    <Text>
+    This adjustment modifies Target’s [bad debt | inventory | intangible asset] reserves and impairments: (1) The allowance for doubtful accounts rises by $[N], matching historical write-off rates of [N]% of revenue. (2) The adjustment records an impairment charge of $[N] in [period] for [assets] with projected cash flows below carrying value.
+    </Text>
+    <Keywords>QofE; reserves; bad debt; inventory reserve; impairment; intangible assets; allowance; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 6) MANAGEMENT/OWNER-RELATED ITEMS -->
+  <Sample id="QoE_Owners">
+    <Text>
+    The adjustment excludes owner and management-related expenses from EBITDA, as they do not align with Target’s normalized operations. Specific items include: (1) $[N] in management fees paid to [Seller | Parent Company] in [period], ending post-close. (2) $[N] in personal expenses (travel, entertainment) charged to the business, ceasing post-transaction. (3) $[N] in owner compensation, removed if the owner departs post-transaction.
+    </Text>
+    <Keywords>QofE; management fees; owner compensation; personal expenses; non-operational; post-transaction; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 7) FOREIGN CURRENCY & EXCHANGE ADJUSTMENTS -->
+  <Sample id="QoE_FX">
+    <Text>
+    Target records revenues and expenses in [foreign currencies], causing exchange rate fluctuations. The adjustment restates revenue and costs at a [constant exchange rate | average rate] to separate operational performance from currency volatility. Remeasuring [revenues/costs] at $[N]/[currency] in [period] adjusts EBITDA by $[N]. This method aligns comparisons across reporting periods.
+    </Text>
+    <Keywords>QofE; foreign currency; exchange rate; FX adjustment; constant currency; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 8) PRO FORMA ADJUSTMENTS FOR OPERATIONAL CHANGES -->
+  <Sample id="QoE_Proforma">
+    <Text>
+    The pro forma adjustment calculates the EBITDA impact assuming [specific operational change, e.g., headcount reduction, new bonus plan] applied throughout the historical period. Examples include: (1) Excluding $[N] in compensation costs for positions not backfilled after [MMM-YY]. (2) Adjusting for $[N] in increased expenses from a new policy starting [MMM-YY].
+    </Text>
+    <Keywords>QofE; pro forma adjustment; operational change; headcount reduction; bonus plan; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 9) RELATED PARTY TRANSACTIONS -->
+  <Sample id="QoE_RelatedParty">
+    <Text>
+    Target conducts transactions with [related party] for [goods/services], totaling $[N] in [period]. The adjustment restates these transactions to [market rates | arm’s length terms], adding $[N] in [cost | revenue]. This change adjusts EBITDA by $[N], matching third-party transaction terms.
+    </Text>
+    <Keywords>QofE; related party; market rate adjustment; arm’s length; EBITDA</Keywords>
+  </Sample>
+
+  <!-- 10) LEASE AND FACILITY ADJUSTMENTS -->
+  <Sample id="QoE_Lease">
+    <Text>
+    In [period], Target recorded $[N] in [lease exit | relocation | office closure] costs tied to [specific event, e.g., downsizing, relocation]. The adjustment excludes these [one-time | non-recurring] costs from EBITDA. Alternatively, it adjusts EBITDA by $[N] assuming the event occurred at the period’s start.
+    </Text>
+    <Keywords>QofE; lease adjustment; facility costs; office closure; relocation; EBITDA </Keywords>
+  </Sample>
+ 
+ <!-- 11) BONUS ADJUSTMENTS -->
+  <Sample id="QoE_Bonus">
+    <Text>
+      Target’s bonus structure covers discretionary and performance-based bonuses. The adjustment excludes $[N] in discretionary bonuses, like a one-time payment in [MMM-YY], from EBITDA as non-recurring. For performance-based bonuses accrued [monthly | quarterly] per budget, the adjustment normalizes $[N] in bonus expense and payroll taxes over the fiscal year, aligning accruals with actual payments.
+      </Text>
+      <Keywords>QofE; Bonus; discretionary bonus; performance-based bonus; payroll taxes; EBITDA</Keywords>
+  </Sample>
+
+</Quality of Earnings>
+
+<Section name="Net working capital"> 
+
+  <!-- 1) Intro & Disclaimers -->
+  <Sample id="NWC_GeneralIntro">
+    <Text>
+      This section outlines potential net working capital (NWC) adjustments identified in [MMM-YY], [MMM-YY], and [MMM-YY]. The items discussed are not exhaustive; further procedures or discussions with Management may reveal additional adjustments or updates to those presented herein.
+    </Text>
+    <Keywords>NWC; intro; potential adjustments; disclaimer; Management discussions</Keywords>
+  </Sample>
+
+  <!-- 2) Standard Cash-Free, Debt-Free Exclusions -->
+  <Sample id="NWC_StandardExclusions">
+    <Text>
+      Standard exclusions reflect the [cash-free | debt-free] transaction structure. As of [MMM-YY], we excluded $[N] of [restricted cash | short-term investments | current maturities of debt] from NWC, classifying these amounts as either cash or indebtedness outside of NWC calculations.
+    </Text>
+    <Keywords>NWC; standard exclusions; cash-free debt-free; restricted cash; short-term investments; indebtedness</Keywords>
+  </Sample>
+
+  <!-- 3) Non-Operational / One-Time Items -->
+  <Sample id="NWC_NonOperationalItems">
+    <Text>
+      This adjustment removes $[N] of [non-operational | one-time] liabilities or assets that will not continue post-close. Items such as [accrued transaction fees | settlement payables | management fees] are excluded from NWC to reflect recurring operational balances.
+    </Text>
+    <Keywords>NWC; non-operational; one-time liabilities; post-close; management fees</Keywords>
+  </Sample>
+
+  <!-- 4) Bonus Accruals as Indebtedness -->
+  <Sample id="NWC_BonusAccruals">
+    <Text>
+      Target accrues bonuses on a [monthly | quarterly] basis. At [period-end], $[N] of discretionary or prior-period bonus accruals remained unpaid. We reclassified this amount as indebtedness rather than NWC.
+    </Text>
+    <Keywords>NWC; bonus accrual; indebtedness; discretionary bonus; cash-free</Keywords>
+  </Sample>
+
+  <!-- 5) Related-Party Balances -->
+  <Sample id="NWC_RelatedParty">
+    <Text>
+      Related-party balances totaling $[N] in [accounts receivable | accounts payable] are excluded from NWC. These transactions are non-operational or expected to settle before close.
+    </Text>
+    <Keywords>NWC; related party; non-operational; AR/AP; settlement</Keywords>
+  </Sample>
+
+  <!-- 6) Deferred Rent -->
+  <Sample id="NWC_DeferredRent">
+    <Text>
+      Deferred rent of $[N] is a non-cash liability that is typically addressed through purchase accounting at close. Consequently, we removed the deferred rent balance from NWC, presenting only near-term cash obligations.
+    </Text>
+    <Keywords>NWC; deferred rent; non-cash liability; purchase accounting; exclusion</Keywords>
+  </Sample>
+
+  <!-- 7) CAPEX & Long-Term Items -->
+  <Sample id="NWC_CAPEX">
+    <Text>
+      Accrued liabilities for capital expenditures, such as $[N] in [CAPEX vendor payables], are excluded from NWC. These costs reflect long-term investments rather than routine operational outflows.
+    </Text>
+    <Keywords>NWC; CAPEX; accrued liabilities; non-operational; exclusion</Keywords>
+  </Sample>
+
+  <!-- 8) Out-of-Period / Misclassified Entries -->
+  <Sample id="NWC_OutOfPeriod">
+    <Text>
+      Our analysis identified $[N] of out-of-period or misclassified entries in [AP | AR | accruals], recorded in the incorrect reporting period. We allocated these amounts to the proper period, reducing NWC by $[N] to align the balance with actual transaction dates.
+    </Text>
+    <Keywords>NWC; out-of-period; misclassification; AP/AR; period alignment</Keywords>
+  </Sample>
+
+  <!-- 9) QoE-Linked Adjustments -->
+  <Sample id="NWC_QoE_Link">
+    <Text>
+      Reflects the impact of Quality of Earnings (QoE) adjustments on NWC. We have estimated the impact on [NWC account] for [QoE adjustment] using [DPO/DSO metric].
+    </Text>
+    <Keywords>NWC; QoE; DSO; DPO</Keywords>
+  </Sample>
+
+  <!-- 10) Classification & Presentation -->
+  <Sample id="NWC_Classification">
+    <Text>
+      Current assets and liabilities were presented based on Management’s definitions and GAAP. We adjusted $[N] related to [inventory reclass | accrual timing] to align with typical NWC conventions, reflecting operational balances for the closing date.
+    </Text>
+    <Keywords>NWC; classification; GAAP; inventory reclass; accrual timing</Keywords>
+  </Sample>
+
+  <!-- 11) Key Drivers & Fluctuations -->
+  <Sample id="NWC_Fluctuations">
+    <Text>
+      Net working capital fluctuated due to seasonal revenue cycles and timing differences in billing or expense accruals. For instance, an increase [inventory | receivables] during [MMM-YY] raised NWC by $[N] before normalizing the following month.
+    </Text>
+    <Keywords>NWC; seasonal factors; billing timing; inventory; accruals</Keywords>
+  </Sample>
+
+  <!-- 12) Long-Term Trend Observations -->
+  <Sample id="NWC_LongTermTrend">
+    <Text>
+      Over the historical period, NWC [increased/decreased] by $[N], driven by changes in [payables terms | credit policy | business seasonality]. Adjustments for non-operational items reduced these fluctuations, isolating the operational baseline of current assets and liabilities.
+    </Text>
+    <Keywords>NWC; long-term trend; payables terms; credit policy; baseline</Keywords>
+  </Sample>
+</NetWorkingCapital>
+
+<Section name="Net Debt">
+    <Sample id="ND1">
+      <Text>Target’s net debt was $[N] as of [MMM-YY], with reported debt of $[N] (including [list components]) offset by $[N] in non-restricted cash and equivalents, per Management’s trial balances.</Text>
+      <Keywords>Net Debt; Reported balance summary; trial balances; cash equivalents</Keywords>
+    </Sample>
+    <Sample id="ND2">
+      <Text>Potential debt‐like items represent obligations of Target which we identified during our diligence, which you should consider in your negotiations with Seller and which should be considered in the definitions of cash and indebtedness included in the purchase agreement.</Text>
+      <Keywords>Net Debt; Potential debt‐like items; diligence; negotiations</Keywords>
+    </Sample>
+    <Sample id="ND3">
+      <Text>Your legal team should consider reviewing Target’s debt agreements for the implications of early termination and ensure that any resulting fees or penalties are treated as indebtedness within the purchase agreement.</Text>
+      <Keywords>Net Debt; Loan termination fees; early termination; legal review</Keywords>
+    </Sample>
+  </Section>
+
+  <RevenueAndGrossMargin>
+
+  <!-- 1) Customer Concentration & Top Accounts -->
+  <Sample id="RGM_CustomerConcentration">
+  <Text>
+        In [period], Target’s top [N] customers accounted for [N]% of total revenue. [Customer X] generated $[N], or [N]% of total revenue, showing a [consistent/increasing/decreasing] share from prior periods. High customer concentration increases revenue volatility if key customers reduce their purchasing volumes.
+  </Text>
+  <Keywords>Revenue; top customers; concentration; volatility; purchasing volumes</Keywords>
+  </Sample>
+ 
+  <!-- 2) New & Lost Customers -->
+  <Sample id="RGM_NewLostCustomers">
+  <Text>
+        Target gained [N] new customers in [period], adding $[N] in revenue, but lost [N] customers due to [non-renewal | churn]. This resulted in a net revenue [increase/decrease] of $[N], or [N]%, from customer changes in [period].
+  </Text>
+  <Keywords>Revenue; new customers; churn; net impact; period analysis</Keywords>
+  </Sample>
+
+  <!-- 3) Seasonality & Periodic Trends -->
+  <Sample id="RGM_Seasonality">
+  <Text>
+        Revenue peaked in [MMM-YY] due to [holiday cycles | industry events]. Gross margins also rose during these peaks, with higher [sales volumes | production runs] improving cost absorption and boosting margins by [N]% over off-peak periods.
+  </Text>
+  <Keywords>Revenue; Gross Margin; seasonality; cost absorption; cyclical trends</Keywords>
+  </Sample>
+
+  <!-- 4) Bundling & Cross-Sell Opportunities -->
+  <Sample id="RGM_BundlingCrossSell">
+  <Text>
+        Target sells bundled products and services to [N]% of its customers, achieving an average revenue of $[N] per customer. Bundling improves gross margins when direct costs are shared across product lines, increasing profitability by [N]% compared to standalone pricing.
+  </Text>
+  <Keywords>Revenue; bundling; cross-sell; margin improvement; product lines</Keywords>
+  </Sample>
+
+  <!-- 5) Pricing & Discount Strategies -->
+  <Sample id="RGM_Pricing">
+  <Text>
+       Target uses tiered pricing, with discounts based on [volume commitments | contract length], affecting [N]% of sales in [period]. In [period], Target [reduced/raised] prices by an average of [N]%, which [decreased/increased] revenue by $[N]. This pricing change shifted the sales mix to [higher/lower]-priced tiers, [increasing/decreasing] gross margins by [N]%.
+  </Text>
+  <Keywords>Revenue; gross margin; pricing strategy; tiered pricing; sales mix</Keywords>
+  </Sample>
+
+  <!-- 7) Contracted Revenue & Renewals -->
+  <Sample id="RGM_ContractRenewals">
+  <Text>
+       In [period], [N] major customers renewed contracts, securing $[N] in annual revenue. These renewals provide recurring revenue and include cost pass-through terms, maintaining gross margins at approximately [N]%.
+  </Text>
+  <Keywords>Revenue; contract renewals; recurring income; pass-through costs; gross margin</Keywords>
+  </Sample>
+
+  <!-- 8) Returns, Credits & Refunds -->
+  <Sample id="RGM_ReturnsCredits">
+  <Text>
+        In [period], returns and credits totaled $[N], or [N]% of gross sales, [increasing/decreasing] from [N]% ($[N]) in [prior period]. This change, due to [seasonality | specific product issues], reduced net revenue and impacted gross margin by [N]%.
+  </Text>
+  <Keywords>Revenue; returns; credits; net sales; gross margin impact</Keywords>
+  </Sample>
+
+  <!-- 9) Cost Allocation & Methodology -->
+  <Sample id="RGM_CostAllocation">
+  <Text>
+        Target allocates costs to COGS and operating expenses based on [FTE hours | direct labor costs | standard rates], affecting [N]% of total costs in [period]. In [period], Target reallocated $[N] from operating expenses to COGS, decreasing gross margin by [N]%. Management updated the allocation method to match actual usage, which may affect period-to-period comparisons.
+  </Text>
+  <Keywords>Gross Margin; cost allocation; COGS; operating expenses; methodology revision</Keywords>
+
+  </Sample>
+  <!-- 10) Gross Margin Drivers & Trends -->
+  <Sample id="RGM_GMDrivers">
+  <Text>
+        Gross margin [increased/decreased] from [N]% in [prior period] to [N]% in [recent period], driven by changes in [product mix | cost of raw materials | overhead absorption]. Management’s [pricing adjustments | operational efficiencies] contributed [N] basis points to this improvement, suggesting steady margin growth.
+  </Text>
+  <Keywords>Gross Margin; product mix; overhead absorption; margin expansion; basis points</Keywords>
+    </Sample>
+
+  <!-- 11) Forward-Looking Revenue & Margin Projections -->
+  <Sample id="RGM_Forecast">
+  <Text>
+       Management projects [N]% revenue growth next fiscal year, based on [new product launches | expanded sales channels]. Gross margin should hold at [N]%, assuming stable pricing, customer retention, and no major [cost volatility | supply chain disruptions].
+  </Text>
+  <Keywords>Revenue; gross margin; forward-looking; projections; assumptions</Keywords>
+  </Sample>
+
+  <!-- 12) Summary & Considerations -->
+  <Sample id="RGM_Summary">
+  <Text>
+        Target’s revenue shows [moderate/high/low] customer concentration and seasonal fluctuations, with gross margins affected by pricing and cost allocation methods. Analyzing recurring versus one-time factors clarifies normalized trends, aiding in forecasting revenue growth and margin stability.
+  </Text>
+  <Keywords>Revenue; gross margin; concentration; normalization; sustainability</Keywords>
+  </Sample>
+  
+  </RevenueAndGrossMargin> 
+
+</KnowledgeBase>
