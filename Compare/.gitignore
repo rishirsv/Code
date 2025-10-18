@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.local
+
+# output artifacts
+output/*.md
+output/*.log
+
+# build artifacts
+dist/
+build/
