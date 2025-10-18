@@ -14,7 +14,7 @@ Monorepo containing several independent projects and a shared prompts library. E
   - Placeholder for Substack export utilities. Project‑specific docs will live inside this folder when implemented.
 
 - Prompts (`prompts/`)
-  - Curated prompt library and working instructions for planning, tasking, and documentation. See `prompts/create-docs.md`, `prompts/create-prd.md`, `prompts/generate-tasks.md`, and `prompts/process-task-list.md`.
+  - Curated prompt library and working instructions for planning, tasking, and documentation. See `prompts/create-docs.md`, `prompts/create-prd.md`, `prompts/create-tasks.md`, and `prompts/process-task-list.md`.
 
 ## Repository Structure
 
@@ -49,7 +49,7 @@ Examples:
 This repo includes prompt‑driven workflows for planning and execution (see `prompts/`). Recommended flow for new features:
 
 1) Draft a PRD using `prompts/create-prd.md` and save it under the app’s `docs/`.
-2) Break the PRD into tasks with `prompts/generate-tasks.md` and stage them in `docs/tasks/`.
+2) Break the PRD into tasks with `prompts/create-tasks.md` and stage them in `docs/tasks/`.
 3) Execute tasks methodically using `prompts/process-task-list.md`, validating each step with the app’s local tooling/tests.
 
 Bug fixes and refactors can follow the guidance embedded in the prompts (e.g., minimal diffs, prove the fix, and keep public APIs stable).
@@ -69,4 +69,3 @@ Bug fixes and refactors can follow the guidance embedded in the prompts (e.g., m
 
 - Explore a project folder and read its local README for setup and usage.
 - Browse `prompts/` to leverage the PRD/task workflows and documentation helpers like `create-docs.md`.
-

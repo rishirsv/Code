@@ -29,7 +29,7 @@ Tip: Quote paths that include spaces, e.g., `cd personal-capital`.
 
 Use prompt‑driven flow for changes:
 1) Create a PRD (prompts/create-prd.md). Save under `<app>/docs/PRDs/`.
-2) Generate tasks (prompts/generate-tasks.md). Save under `<app>/docs/tasks/`.
+2) Generate tasks (prompts/create-tasks.md). Save under `<app>/docs/tasks/`.
 3) Execute using prompts/process-task-list.md and validate locally.
 
 Bug fix

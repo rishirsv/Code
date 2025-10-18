@@ -64,13 +64,13 @@ project/
 ### Workflow
 Development tasks for features follow the following workflow unless otherwise specified.
 - Create a PRD using `@create-prd.md`. Ask the user clarifying questions and save `docs/PRDs/prd-<slug>.md`.
-- Generate tasks using `@generate-tasks.md` on `prd-<slug>.md`. Parse the PRD document and save `/docs/tasks/tasks-<slug>.md`. Ask the user if they are ready to generate subtasks.
+- Generate tasks using `@create-tasks.md` on `prd-<slug>.md`. Parse the PRD document and save `/docs/tasks/tasks-<slug>.md`. Ask the user if they are ready to generate subtasks.
 - On confirmation, generate subtasks and metadata.
 - Focus on one task at a time and methodically complete tasks using `process-task-list.md`.
 
 These are the relevant workflow files:
 - **`create-prd.md`**: Guides the AI in generating a Product Requirement Document for your feature.
-- **`generate-tasks.md`**: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
+- **`create-tasks.md`**: Takes a PRD markdown file as input and helps the AI break it down into a detailed, step-by-step implementation task list.
 - **`process-task-list.md`**: Instructs the AI on how to process the generated task list, tackling one task at a time and waiting for your approval before proceeding. (This file also contains logic for the AI to mark tasks as complete).
 
 The user may also request the following workflows:
