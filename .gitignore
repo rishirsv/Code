@@ -1,1 +1,30 @@
+# OS / Editor
 .DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*.local
+
+# Node / JS Artifacts
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.next/
+.turbo/
+
+# Package Managers
+pnpm-lock.yaml
+yarn.lock
+
+# Tests / Reports
+*.tsbuildinfo
+jest*.json
+reports/
+playwright-report/

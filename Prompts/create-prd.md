@@ -1,17 +1,15 @@
-# Rule: Generating a Product Requirements Document (PRD)
-
-## Goal
+# Goal
 
 To guide an AI assistant in creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. The PRD should be clear, actionable, and suitable for a junior developer to understand and implement the feature.
 
-## Process
+# Process
 
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
 2.  **Ask Clarifying Questions:** Before writing the PRD, the AI *must* ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out). Make sure to provide options in letter/number lists so I can respond easily with my selections.
 3.  **Generate PRD:** Based on the initial prompt and the user's answers to the clarifying questions, generate a PRD using the structure outlined below.
-4.  **Save PRD:** Save the generated document as `[n]-prd-[feature-name].md` inside the `/tasks` directory. (Where `n` is a zero-padded 4-digit sequence starting from 0001, e.g., `0001-prd-user-authentication.md`, `0002-prd-dashboard.md`, etc.)
+4.  **Save PRD:** Save the generated document as `prd-[feature-name].md` inside the `/docs/PRDs` directory. 
 
-## Clarifying Questions (Examples)
+# Clarifying Questions (Examples)
 
 The AI should adapt its questions based on the prompt, but here are some common areas to explore:
 
@@ -25,31 +23,79 @@ The AI should adapt its questions based on the prompt, but here are some common 
 *   **Design/UI:** "Are there any existing design mockups or UI guidelines to follow?" or "Can you describe the desired look and feel?"
 *   **Edge Cases:** "Are there any potential edge cases or error conditions we should consider?"
 
-## PRD Structure
+# PRD Structure
 
 The generated PRD should include the following sections:
 
-1.  **Introduction/Overview:** Briefly describe the feature and the problem it solves. State the goal.
-2.  **Goals:** List the specific, measurable objectives for this feature.
-3.  **User Stories:** Detail the user narratives describing feature usage and benefits.
-4.  **Functional Requirements:** List the specific functionalities the feature must have. Use clear, concise language (e.g., "The system must allow users to upload a profile picture."). Number these requirements.
-5.  **Non-Goals (Out of Scope):** Clearly state what this feature will *not* include to manage scope.
-6.  **Design Considerations (Optional):** Link to mockups, describe UI/UX requirements, or mention relevant components/styles if applicable.
-7.  **Technical Considerations (Optional):** Mention any known technical constraints, dependencies, or suggestions (e.g., "Should integrate with the existing Auth module").
-8.  **Success Metrics:** How will the success of this feature be measured? (e.g., "Increase user engagement by 10%", "Reduce support tickets related to X").
-9.  **Open Questions:** List any remaining questions or areas needing further clarification.
+# Background
 
-## Target Audience
+🏞️ Explain the information that your team needs to know, such as the industry, why this need arises.
+
+---
+
+# Problem
+
+💡 State the problem. Describe the opportunities available, as well as the value that is created for the user. Tell the key points of the researchs. Explain why this is a problem and why it's important for your business. Explain the outcome (what changes for whom) and provide a success snapshot in 3 bullets, anchored with KPIs.
+
+---
+
+# Objectives / Goals
+
+🎯 What will success look like in terms of solving this problem? Explain why are you building this and what do you hope to accomplish. Goals - Provide 3-5 bullets defining the outcomes which must be achieved. Non-goals - Provide 3-5 bullets of things which may be valuable but not included in the initial version.
+
+-
+-
+-
+
+---
+
+# Key Features & Scope
+
+⭐ What are you going to build and what do you not want to build? The second part is as important as the first part because the scope is determined.
+
+# Feature 1
+
+## Description:
+
+## Goal:
+
+## Use case:
+
+## Additional details:
+
+# Feature 2
+
+---
+
+# Core UX Flow (optional)
+
+🖌️ Most organizations complete the UX design of features after the PRD has been reviewed and accepted. However, there may be some general guidance required at this stage to ensure the release objectives are met. This is not the place for pixel-perfect mockups or wireframes that map out every possible scenario; instead, it can be used to describe the overall user workflow.
+
+---
+
+# Risks (optional)
+
+🚨 What problems might arise and what should we do if those problems occur?
+
+---
+
+# Support Plans (optional)
+
+🚧 What are the biggest problems users will face and how do we want to help them?
+
+---
+
+# Target Audience
 
 Assume the primary reader of the PRD is a **junior developer**. Therefore, requirements should be explicit, unambiguous, and avoid jargon where possible. Provide enough detail for them to understand the feature's purpose and core logic.
 
-## Output
+# Output
 
 *   **Format:** Markdown (`.md`)
 *   **Location:** `/tasks/`
 *   **Filename:** `[n]-prd-[feature-name].md`
 
-## Final instructions
+# Final instructions
 
 1. Do NOT start implementing the PRD
 2. Make sure to ask the user clarifying questions

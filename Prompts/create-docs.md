@@ -144,6 +144,8 @@ Do NOT merge; leave that to me.
 
 ### Coding Style & Naming Conventions
 
+- Prefer kebab-case for directories and non-code assets. Use language conventions for code identifiers (e.g., JavaScript/TypeScript variables like getUser, React components in PascalCase).
+
 - Specify indentation rules, language-specific style preferences, and naming patterns.
 - Include any formatting or linting tools used.
 
